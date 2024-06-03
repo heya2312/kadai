@@ -88,6 +88,7 @@ img {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
+        position: relative;
     }
 
     .header-logo {
@@ -101,6 +102,23 @@ img {
     .footer-logo {
         margin-top: 60px;
 
+    }
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .toggle-menu-button{
+        display: block;
+        width: 44px;
+        height: 34px;
     }
 
     .copyright {
